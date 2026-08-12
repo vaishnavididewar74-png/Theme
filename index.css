@@ -1,0 +1,22 @@
+#logo{
+	font-family: "Courgette", cursive;
+	font-size:25px;
+}
+header{
+	animation:header 2s  
+}
+#about-h1{
+	background-image:linear-gradient(90deg, #FC466B 0%, #3F5EFB 20%);
+	-webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.orange{
+	color:orange
+}
+.blue{
+	color:skyblue
+}
+footer button{
+	background-image:linear-gradient(90deg, #3F5EFB 0%, #FC466B);
+}

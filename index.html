@@ -1,0 +1,287 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>
+			My Portfolio
+		</title>
+		<meta charset="UTF-8"/>
+		<meta name="Author" content="Vaishnavi Didewar"/>
+		<meta name="Keywords" content="HTML, CSS"/>
+		<meta http-equiv="refresh" content="1000"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" integrity="sha512-XcIsjKMcuVe0Ucj/xgIXQnytNwBttJbNjltBV18IOnru2lDPe9KRRyvCXw6Y5H415vbBLRm8+q6fmLUU7DfO6Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<!-- Audiowide -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Audiowide&family=Baskervville:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+		<!-- Courgette -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+		<link rel="stylesheet" href="index.css"/>
+	</head>
+	<body class="m-[0%]" id="theme">
+	
+		<header class="h-[1.5cm] bg-[rgba(0,0,0,0.4)] w-[100%] text-[18px] text-[white] fixed flex items-center border-b-1 z-1">
+		
+			<nav class="w-[90%] left-[5%] right-[5%] flex justify-between absolute">
+				<h2 id="logo" style="font-size:30px;" class="font-bold">JaneDoe</h2>
+				
+				<ul id="nav-ul" class="absolute w-[50%] left-[25%] right-[25%] flex justify-between mt-[0.1cm]">
+				
+					<li id="Home">Home</li>
+					
+					<li id="About">About</li>
+					
+					<li id="Projects">Projects</li>
+					
+					<li id="Services">Services</li>
+					
+					<li id="Contact">Contact</li>
+					
+				</ul>
+				
+				<div id="nav-div" class="absolute w-[5%] left-[95%] flex justify-between mt-[0.1cm]">
+				
+					<button onclick="dark()" id="dark"><i class="ri-moon-fill"></i></button>
+					
+					<button onclick="light()" id="light"><i class="ri-sun-fill"></i></button>
+					
+				</div>
+				
+			</nav>
+			
+		</header>
+		
+		<section id="Hero" class="absolute w-[100%] h-[13cm] bg-[url(Image/temp3.png)] bg-center bg-cover ">
+		
+			<div class="absolute w-[90%] left-[10%] mt-[5cm]">
+			
+				<div id="hero-div" class="flex w-[43.8%] justify-between">
+					<h2 id="intro" class="text-[white] text-[45px] font-bold">Hello, I'm</h2>
+					<span id="head-span" class="text-[#FF007F] font-bold text-[45px]">Jane Doe.</span>
+				</div>
+				
+				<h4 id="profession" class="text-[white] text-[25px] font-medium">Creative Designer & Developer.</h4>
+				
+				<small id="head-small" class="text-[white] text-[18px]">I build unique digital experiences.</small>
+				
+				<div class="absolute mt-[0.5cm] text-[white] w-[22%] flex justify-between">
+				
+					<button id="head-but1" class="bg-[#FF007F] border-2 px-[0.2cm] py-[0.1cm] rounded-[3px]">View My Work</button>
+					
+					<button id="head-but2" class="bg-[#800080] border-2 px-[0.2cm] py-[0.1cm] rounded-[3px]">Hire Me</button>
+					
+				</div>
+				
+			</div>
+			
+		</section>
+		
+		<section id="About" class="absolute h-[7cm] w-[100%] mt-[14cm]">
+		
+			<figure class="absolute w-[30] left-[10%] m-[0%]">
+			
+				<img id="jane" src="Image/jane.png" class="h-[5cm]"/>
+				
+			</figure>
+			
+			<div id="about-div" class="absolute w-[50%] left-[40%] right-[10%] mt-[0.5cm]">
+			
+				<h1 id="about-h1" class="font-bold text-[32px]">About Me</h1>
+				
+				<hr id="hr"/>
+				
+				<p id="creative">I'm a creative professional with a passion for design and coding.</p>
+				
+				<p id="love">I love coding ideas into beautiful and functional websites.</p>
+				
+				<div class="mt-[0.2cm] flex justify-between absolute w-[65%]">
+					
+					<button class="border-2 rounded-[3px] px-[0.5cm] py-[0.1cm]"><i class="ri-html5-fill orange"></i>HTML</button>
+					
+					<button class="border-2 rounded-[3px] px-[0.5cm] py-[0.1cm]"><i class="ri-css3-fill blue"></i>CSS</button>
+					
+					<button class="border-2 rounded-[3px] px-[0.5cm] py-[0.1cm]"><i class="ri-javascript-fill orange"></i>JavaScript</button>
+				</div>
+				
+			</div>
+			
+		</section>
+		
+		<section id="Projects" class="absolute w-[100%] mt-[20cm]">
+		
+			<h1 id="Pro-h1" class="text-center font-bold text-[30px] text-[#10002B]">My Projects</h1>
+			
+			<div class="absolute w-[86%] left-[7%] right-[7%] flex justify-between mt-[0.5cm]">
+				
+				<figure id="Pro-figure1" class="m-[0%] border-2 rounded-[5px]">
+				
+					<img src="Image/light1.png" id=""/>
+					
+					<figcaption class="ml-[0.5cm] py-[0.2cm]" id="Pro-figcaption1">
+						
+						<strong class="text-[18px]">Modern Website</strong>
+						
+						<p><small>Website Design</small></p>
+						
+					</figcaption>
+					
+				</figure>
+				
+				<figure id="Pro-figure2" class="m-[0%] border-2 rounded-[5px]">
+				
+					<img src="Image/light2.png" id=""/>
+					
+					<figcaption class="ml-[0.5cm] py-[0.2cm]" id="Pro-figcaption2">
+						
+						<strong class="text-[18px]">Mobile APP</strong>
+						
+						<p><small>APP Interface</small></p>
+						
+					</figcaption>
+					
+				</figure>
+				
+				<figure id="Pro-figure3" class="m-[0%] border-2 rounded-[5px]">
+				
+					<img src="Image/light3.png" id=""/>
+					
+					<figcaption class="ml-[0.5cm] py-[0.2cm]" id="Pro-figcaption3">
+						
+						<strong class="text-[18px]">Brand Identity</strong>
+						
+						<p><small>Logo & Branding</small></p>
+						
+					</figcaption>
+					
+				</figure>
+				
+			</div>
+		
+		</section>
+		
+		<footer class="absolute w-[100%] mt-[29cm]">
+			
+			<h1 id="Get" class="text-[30px] font-bold text-center">Get in Touch</h1>
+			
+			<div class="absolute w-[90%] left-[5%] right-[5%] flex justify-between h-[1cm] mt-[0.5cm]">
+				
+				<input type="text" required placeholder="Name" id="name" class="border-2 pl-[0.2cm] rounded-[5px] w-[8cm] "/>
+				
+				<input type="email" required placeholder="Email" id="email" class="border-2 pl-[0.2cm] rounded-[5px] w-[8cm]"/>
+				
+				<input type="text" required placeholder="Message" id="mess" class="border-2 pl-[0.2cm] rounded-[5px] w-[8cm]"/>
+				
+			</div>
+			
+			<div class="absolute w-[20%] left-[40%] right-[40%]">
+				<button id="send" class="absolute w-[100%] px-[0.3cm] py-[0.1cm] mt-[2cm] border-2 rounded-[5px]">Send Meassage</button>
+			</div>
+			
+			<div id="icon" class="absolute w-[20%] left-[40%] right-[40%] text-[30px] mt-[4cm] flex justify-between">
+			
+				<span><i class="ri-instagram-fill"></i></span>
+				
+				<span><i class="ri-youtube-fill"></i></span>
+				
+				<span><i class="ri-twitter-fill"></i></span>
+				
+				<span><i class="ri-mail-fill"></i></span>
+				
+			</div>
+			
+			<hr id="hr2" class="mt-[6cm]"/>
+			
+			<div id="copy" class="absolute w-[20%] left-[40%] right-[40%]">
+			
+				<small class="">&copy 2025 Jane Doe, All Rights Reserved.</small>
+			
+			</div>
+			
+		</footer>
+		
+		<Script>
+			function dark(){
+				document.getElementById('theme').style="background-color:black";
+				document.getElementById('Hero').style="background-image:url('Image/back.png')";
+				document.getElementById('dark').style="color:white";
+				document.getElementById('light').style="color:white";
+				document.getElementById('logo').style="font-family:'Audiowide', sans-serif; color:white; font-weight:bold; font-size:30px;";
+				document.getElementById('logo').innerHTML='JD';
+				document.getElementById('profession').innerHTML='Designer & Developer.';
+				document.getElementById('head-small').innerHTML='Crafting modern and responsive web experiences.';
+				document.getElementById('nav-ul').style="margin-top:0.2cm;";
+				document.getElementById('nav-div').style="margin-top:0.2cm;";
+				document.getElementById('head-but1').innerHTML='Contact Me';
+				document.getElementById('head-but1').style='background-color:#502380';
+				document.getElementById('head-but2').style='display:none;';
+				document.getElementById('hero-div').style="width:37%;";
+				document.getElementById('head-span').style="color:#FF007F;";
+				document.getElementById('jane').src='Image/janetwo.png';
+				document.getElementById('jane').style='border-radius:100%; height:6cm';
+				document.getElementById('hr').style='color:white';
+				document.getElementById('about-div').style='color:white;';
+				document.getElementById('creative').style='color:white;';
+				document.getElementById('love').style="color:white;";
+				document.getElementById('intro').innerHTML="Hi, I'm";
+				document.getElementById('Pro-h1').style="color:white";
+				document.getElementById('Pro-figcaption1').style="color:white";
+				document.getElementById('Pro-figcaption2').style="color:white";
+				document.getElementById('Pro-figcaption3').style="color:white";
+				document.getElementById('Pro-figure1').style="border-color:white";
+				document.getElementById('Pro-figure2').style="border-color:white";
+				document.getElementById('Pro-figure3').style="border-color:white";
+				document.getElementById('Get').style="color:white";
+				document.getElementById('name').style="color:white; border-color:white";
+				document.getElementById('email').style="color:white; border-color:white";
+				document.getElementById('mess').style="color:white; border-color:white";
+				document.getElementById('send').style="border-color:white";
+				document.getElementById('icon').style="color:white";
+				document.getElementById('hr2').style="color:white";
+				document.getElementById('copy').style="color:white";
+			}
+			
+			function light(){
+				document.getElementById('theme').style='background-color:white';
+				document.getElementById('Hero').style="background-image:url('Image/temp3.png')";
+				document.getElementById('light').style='color:white';
+				document.getElementById('dark').style='color:white';
+				document.getElementById('logo').style="font-family:'Courgette', cursive; font-weight:bold; font-size:30px;";
+				document.getElementById('logo').innerHTML='JaneDoe';
+				document.getElementById('profession').innerHTML='Creative Designer & Developer.';
+				document.getElementById('head-small').innerHTML='I build unique digital experiences.';
+				document.getElementById('nav-ul').style="margin-top:0.2cm;";
+				document.getElementById('nav-div').style="margin-top:0.2cm;";
+				document.getElementById('head-but1').innerHTML='View My Work';
+				document.getElementById('head-but1').style='background-color:#FF007F;';
+				document.getElementById('head-but2').innerHTML='Hire Me';
+				document.getElementById('head-but2').style='display:flex';
+				document.getElementById('head-span').style='color:#FF007F';
+				document.getElementById('hero-div').style="width:43.8%;";
+				document.getElementById('jane').src='Image/jane.png';
+				document.getElementById('hr').style='color:black';
+				document.getElementById('about-div').style='color:black';
+				document.getElementById('creative').style='color:black';
+				document.getElementById('love').style="color:black";
+				document.getElementById('intro').innerHTML="Hello, I'm";
+				document.getElementById('Pro-h1').style="color:#10002B";
+				document.getElementById('Pro-figcaption1').style="color:black";
+				document.getElementById('Pro-figcaption2').style="color:black";
+				document.getElementById('Pro-figcaption3').style="color:black";
+				document.getElementById('Pro-figure1').style="border-color:black";
+				document.getElementById('Pro-figure2').style="border-color:black";
+				document.getElementById('Pro-figure3').style="border-color:black";
+				document.getElementById('Get').style="color:black";
+				document.getElementById('name').style="color:black; border-color:black";
+				document.getElementById('email').style="color:black; border-color:black";
+				document.getElementById('mess').style="color:black; border-color:black";
+				document.getElementById('send').style="border-color:black";
+				document.getElementById('icon').style="color:black";
+				document.getElementById('hr2').style="color:black";
+				document.getElementById('copy').style="color:black";
+			}
+		</Script>
+	</body>
+</html> 
